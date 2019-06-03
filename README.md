@@ -1,4 +1,4 @@
-# Awesome-Temporally-Language-Grounding
+# Awesome-Temporally-Language-Grounding[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 A curated list of “Temporally Language Grounding” and related area
 
 
