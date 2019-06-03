@@ -4,52 +4,15 @@ A curated list of “Temporally Language Grounding” and related area
 
 ## Table of Contents
 - [Papers](#papers)
-  - [Survey](#survey)
-  - [Before](#before) - [2015](#2015) - [2016](#2016) - [2017](#2017) - [2018](#2018) - [2019](#2019)
+  - [2017](#2017) - [2018](#2018) - [2019](#2019)
 - [Dataset](#dataset)
 - [Image Captioning Challenge](#image-captioning-challenge)
 - [Popular Implementations](#popular-implementations)
   - [PyTorch](#pytorch)
   - [TensorFlow](#tensorflow)
-  - [Torch](#torch)
-  - [Others](#others)
+
 
 ## Papers
-### Survey
-* [A Comprehensive Survey of Deep Learning for Image Captioning](https://arxiv.org/abs/1810.04020) - Hossain M et al, `arXiv preprint 2018`.
-### Before
-* [I2t: Image parsing to text description](https://ieeexplore.ieee.org/abstract/document/5487377/) - Yao B Z et al, `P IEEE 2011`.
-* [Im2Text: Describing Images Using 1 Million Captioned Photographs](http://tamaraberg.com/papers/generation_nips2011.pdf) - Ordonez V et al, `NIPS 2011`. [[project web]](http://vision.cs.stonybrook.edu/~vicente/sbucaptions/)
-* [Deep Captioning with Multimodal Recurrent Neural Networks](http://arxiv.org/abs/1412.6632) - Mao J et al, `arXiv preprint 2014`.
-
-### 2015
-* [Show and Tell: A Neural Image Caption Generator](http://arxiv.org/abs/1411.4555) - Vinyals O et al, `CVPR 2015`. [[code]](https://github.com/karpathy/neuraltalk) [[code]](https://github.com/zsdonghao/Image-Captioning)
-* [Deep Visual-Semantic Alignments for Generating Image Descriptions](http://arxiv.org/abs/1412.2306) - Karpathy A et al, `CVPR 2015`. [[project web]](http://cs.stanford.edu/people/karpathy/deepimagesent/) [[code]](https://github.com/karpathy/neuraltalk)
-* [Mind’s Eye: A Recurrent Visual Representation for Image Caption Generation](http://www.cs.cmu.edu/~xinleic/papers/cvpr15_rnn.pdf) - Chen X et al, `CVPR 2015`.
-* [Long-term Recurrent Convolutional Networks for Visual Recognition and Description](http://arxiv.org/abs/1411.4389) - Donahue J et al, `CVPR 2015`. [[code]](https://github.com/BVLC/caffe/pull/2033) [[project web]](http://jeffdonahue.com/lrcn/)
-* [Guiding the Long-Short Term Memory Model for Image Caption Generation](https://arxiv.org/abs/1509.04942) - Jia X et al, `ICCV 2015`.
-* [Learning like a Child: Fast Novel Visual Concept Learning from Sentence Descriptions of Images](http://arxiv.org/abs/1504.06692) - Mao J et al, `ICCV 2015`. [[code]](https://github.com/mjhucla/NVC-Dataset)
-* [Expressing an Image Stream with a Sequence of Natural Sentences](http://papers.nips.cc/paper/5776-expressing-an-image-stream-with-a-sequence-of-natural-sentences.pdf) - Park C C et al, `NIPS 2015`. [[code]](https://github.com/cesc-park/CRCN)
-* [Show, Attend and Tell: Neural Image Caption Generation with Visual Attention](http://arxiv.org/abs/1502.03044) - Xu K et al, `ICML 2015`. [[project]](http://kelvinxu.github.io/projects/capgen.html) [[code]](https://github.com/yunjey/show-attend-and-tell-tensorflow) [[code]](https://github.com/kelvinxu/arctic-captions)
-* [Order-Embeddings of Images and Language](http://arxiv.org/abs/1511.06361) - Vendrov I et al, `arXiv preprint 2015`. [[code]](https://github.com/ivendrov/order-embedding)
-* [Generating Images from Captions with Attention](http://arxiv.org/abs/1511.02793) - Mansimov E et al, `arXiv preprint 2015`. [[code]](https://github.com/emansim/text2image)
-* [Learning FRAME Models Using CNN Filters for Knowledge Visualization](http://arxiv.org/abs/1509.08379) - Lu Y, et al, `arXiv preprint 2015`. [[code]](http://www.stat.ucla.edu/~yang.lu/project/deepFrame/doc/deepFRAME_1.1.zip) 
-* [Aligning where to see and what to tell: image caption with region-based attention and scene factorization](http://arxiv.org/abs/1506.06272) - Jin J et al, `arXiv preprint 2015`.
-
-### 2016
-* [Image captioning with semantic attention](https://arxiv.org/abs/1603.03925) - You Q et al, `CVPR 2016`. [[code]](https://github.com/chapternewscu/image-captioning-with-semantic-attention)
-* [DenseCap: Fully Convolutional Localization Networks for Dense Captioning](http://arxiv.org/abs/1511.07571) - Johnson J et al, `CVPR 2016`. [[code]](https://github.com/jcjohnson/densecap)
-* [What value do explicit high level concepts have in vision to language problems?](http://arxiv.org/abs/1506.01144) - Wu Q et al, `CVPR 2016`.
-* [SPICE: Semantic Propositional Image Caption Evaluation](http://www.panderson.me/images/SPICE.pdf) - Anderson P et al, `ECCV 2016`. [[code]](https://github.com/peteanderson80/SPICE)
-* [Image Captioning with Deep Bidirectional LSTMs](http://arxiv.org/abs/1604.00790) - Wang C et al, `ACMMM 2016`. [[code]](https://github.com/deepsemantic/image_captioning)
-* [Multimodal Pivots for Image Caption Translation](http://arxiv.org/abs/1511.02793) - Hitschler J et al, `ACL 2016`.
-* [Image Caption Generation with Text-Conditional Semantic Attention](https://arxiv.org/abs/1606.04621) - Zhou L et al, `arXiv preprint 2016`. [[code]](https://github.com/LuoweiZhou/e2e-gLSTM-sc)
-* [DeepDiary: Automatic Caption Generation for Lifelogging Image Streams](http://arxiv.org/abs/1608.03819) - Fan C et al, `arXiv preprint 2016`.
-* [Learning to generalize to new compositions in image understanding](http://arxiv.org/abs/1608.07639) - Atzmon Y et al, `arXiv preprint 2016`.
-* [Generating captions without looking beyond objects](https://arxiv.org/abs/1610.03708) - Heuer H et al, `arXiv preprint 2016`.
-* [Bootstrap, Review, Decode: Using Out-of-Domain Textual Data to Improve Image Captioning](https://arxiv.org/abs/1611.05321) - Chen W et al, `arXiv preprint 2016`. [[code]](https://github.com/wenhuchen/Semi-Supervised-Image-Captioning)
-* [Recurrent Image Captioner: Describing Images with Spatial-Invariant Transformation and Attention Filtering](https://arxiv.org/abs/1612.04949) - Liu H et al, `arXiv preprint 2016`.
-* [Recurrent Highway Networks with Language CNN for Image Captioning](https://arxiv.org/abs/1612.07086) - Gu J et al, `arXiv preprint  2016`.
 
 ### 2017
 * [Captioning Images with Diverse Objects](http://arxiv.org/abs/1606.07770) - Venugopalan S et al, `CVPR 2017`. [[code]](https://github.com/vsubhashini/noc)
@@ -141,10 +104,6 @@ A curated list of “Temporally Language Grounding” and related area
 * [SBUCaptionedPhotoDataset](http://www.cs.virginia.edu/~vicente/sbucaptions/), LANG: `English`.
 * [IAPR TC-12](https://www.imageclef.org/photodata), LANG: `English, German and Spanish`.
 
-## Image Captioning Challenge
-* [Microsoft COCO Image Captioning](https://competitions.codalab.org/competitions/3221)
-* [Google AI Blog: Conceptual Captions](http://ai.googleblog.com/2018/09/conceptual-captions-new-dataset-and.html)
-
 ## Popular Implementations
 ### PyTorch
 * [ruotianluo/self-critical.pytorch](https://github.com/ruotianluo/self-critical.pytorch)
@@ -153,11 +112,4 @@ A curated list of “Temporally Language Grounding” and related area
 ### TensorFlow
 * [tensorflow/models/im2txt](https://github.com/tensorflow/models/tree/master/research/im2txt)
 * [DeepRNN/image_captioning](https://github.com/DeepRNN/image_captioning)
-### Torch
-* [jcjohnson/densecap](https://github.com/jcjohnson/densecap)
-* [karpathy/neuraltalk2](https://github.com/karpathy/neuraltalk2)
-* [jiasenlu/AdaptiveAttention](https://github.com/jiasenlu/AdaptiveAttention)
-### Others
-* [emansim/text2image](https://github.com/emansim/text2image)
-* [apple2373/chainer-caption](https://github.com/apple2373/chainer-caption)
-* [peteanderson80/bottom-up-attention](https://github.com/peteanderson80/bottom-up-attention)
+
