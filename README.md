@@ -37,14 +37,7 @@ A curated list of “Temporally Language Grounding” and related area
 * [Reference Based LSTM for Image Captioning](https://aaai.org/ocs/index.php/AAAI/AAAI17/paper/download/14249/14270) - Chen M et al, `AAAI 2017`.
 * [Attention Correctness in Neural Image Captioning](https://arxiv.org/abs/1605.09553) - Liu C et al, `AAAI 2017`.
 * [Text-guided Attention Model for Image Captioning](https://arxiv.org/abs/1612.03557) - Mun J et al, `AAAI 2017`. [[code]](https://github.com/JonghwanMun/TextguidedATT)
-* [Contrastive Learning for Image Captioning](https://arxiv.org/abs/1710.02534) - Dai B et al, `NIPS 2017`. [[code]](https://github.com/doubledaibo/clcaption_nips2017)
-* [Show and Tell: Lessons learned from the 2015 MSCOCO Image Captioning Challenge](http://arxiv.org/abs/1609.06647) - Vinyals O et al, `TPAMI 2017`. [[code]](https://github.com/tensorflow/models/tree/master/im2txt)
-* [MAT: A Multimodal Attentive Translator for Image Captioning](https://arxiv.org/abs/1702.05658) - Liu C et al, `arXiv preprint  2017`.
-* [Actor-Critic Sequence Training for Image Captioning](https://arxiv.org/abs/1706.09601) - Zhang L et al, `arXiv preprint 2017`.
-* [What is the Role of Recurrent Neural Networks (RNNs) in an Image Caption Generator?](https://arxiv.org/abs/1708.02043) - Tanti M et al, `arXiv preprint 2017`. [[code]](https://github.com/mtanti/rnn-role)
-* [Self-Guiding Multimodal LSTM - when we do not have a perfect training dataset for image captioning](https://arxiv.org/abs/1709.05038) - Xian Y et al, `arXiv preprint 2017`.
-* [Phrase-based Image Captioning with Hierarchical LSTM Model](https://arxiv.org/abs/1711.05557) - Tan Y H et al, `arXiv preprint 2017`.
-* [Show-and-Fool: Crafting Adversarial Examples for Neural Image Captioning](https://arxiv.org/abs/1712.02051) - Chen H et al, `arXiv preprint 2017`.
+
 
 ### 2018
 * [Neural Baby Talk](https://arxiv.org/abs/1803.09845) - Lu J et al, `CVPR 2018`. [[code]](https://github.com/jiasenlu/NeuralBabyTalk)
@@ -95,10 +88,10 @@ A curated list of “Temporally Language Grounding” and related area
 * Connecting Language to Images: A Progressive Attention-Guided Network for Simultaneous Image Captioning and Language Grounding - Song L et al, `AAAI 2019`.
 
 ## Dataset
-* [TACoS](https://www.mendeley.com/catalogue/script-data-attributebased-recognition-composite-activities/).
-* [Charades-STA](http://arxiv.org/abs/1705.02101).
-* [ActivityNet](http://arxiv.org/abs/1705.00754).
-* [DiDeMo](https://arxiv.org/abs/1708.01641).
+* [TACoS](https://www.mendeley.com/catalogue/script-data-attributebased-recognition-composite-activities/)
+* [Charades-STA](http://arxiv.org/abs/1705.02101)
+* [ActivityNet](http://arxiv.org/abs/1705.00754)
+* [DiDeMo](https://arxiv.org/abs/1708.01641)
 
 
 ## Popular Implementations
