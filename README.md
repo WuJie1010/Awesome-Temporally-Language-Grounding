@@ -103,10 +103,8 @@ A curated list of “Temporally Language Grounding” and related area
 
 ## Popular Implementations
 ### PyTorch
-* [ruotianluo/self-critical.pytorch](https://github.com/ruotianluo/self-critical.pytorch)
-* [ruotianluo/ImageCaptioning.pytorch](https://github.com/ruotianluo/ImageCaptioning.pytorch)
-* [jiasenlu/NeuralBabyTalk](https://github.com/jiasenlu/NeuralBabyTalk)
+* [WuJie1010/Temporally-language-grounding](https://github.com/WuJie1010/Temporally-language-grounding)
 ### TensorFlow
-* [tensorflow/models/im2txt](https://github.com/tensorflow/models/tree/master/research/im2txt)
-* [DeepRNN/image_captioning](https://github.com/DeepRNN/image_captioning)
+* [jiyanggao/TALL](https://github.com/jiyanggao/TALL)
+* [yytzsy/ABLR_code](https://github.com/yytzsy/ABLR_code)
 
