@@ -6,7 +6,6 @@ A curated list of “Temporally Language Grounding” and related area
 - [Papers](#papers)
   - [2017](#2017) - [2018](#2018) - [2019](#2019)
 - [Dataset](#dataset)
-- [Image Captioning Challenge](#image-captioning-challenge)
 - [Popular Implementations](#popular-implementations)
   - [PyTorch](#pytorch)
   - [TensorFlow](#tensorflow)
@@ -96,13 +95,11 @@ A curated list of “Temporally Language Grounding” and related area
 * Connecting Language to Images: A Progressive Attention-Guided Network for Simultaneous Image Captioning and Language Grounding - Song L et al, `AAAI 2019`.
 
 ## Dataset
-* [MS COCO](http://cocodataset.org/), LANG: `English`.
-* [Flickr 8k](https://forms.illinois.edu/sec/1713398), LANG: `English`.
-* [Flickr 30k](http://shannon.cs.illinois.edu/DenotationGraph/), LANG: `English`.
-* [AI Challenger](https://challenger.ai/dataset/caption), LANG: `Chinese`.
-* [Visual Genome](http://visualgenome.org/), LANG: `English`.
-* [SBUCaptionedPhotoDataset](http://www.cs.virginia.edu/~vicente/sbucaptions/), LANG: `English`.
-* [IAPR TC-12](https://www.imageclef.org/photodata), LANG: `English, German and Spanish`.
+* [TACoS](https://www.mendeley.com/catalogue/script-data-attributebased-recognition-composite-activities/).
+* [Charades-STA](http://arxiv.org/abs/1705.02101).
+* [ActivityNet](http://arxiv.org/abs/1705.00754).
+* [DiDeMo](https://arxiv.org/abs/1708.01641).
+
 
 ## Popular Implementations
 ### PyTorch
