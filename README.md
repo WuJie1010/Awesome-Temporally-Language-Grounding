@@ -14,8 +14,8 @@ A curated list of “Temporally Language Grounding” and related area
 ## Papers
 
 ### 2017
-* [TALL: Temporal Activity Localization via Language Query](http://arxiv.org/abs/1705.02101) - Gao et al, `ICCV 2017`. [[code]](https://github.com/jiyanggao/TALL) 
-* [Localizing Moments in Video with Natural Language](https://arxiv.org/pdf/1708.01641.pdf) - Hendricks et al, `ICCV 2017`. [[code1]](https://github.com/LisaAnne/LocalizingMoments) [[code2]](https://github.com/WuJie1010/Temporally-language-grounding)
+* [TALL: Temporal Activity Localization via Language Query](http://arxiv.org/abs/1705.02101) - Gao et al, `ICCV 2017`. [[code1]](https://github.com/jiyanggao/TALL) [[code2]](https://github.com/WuJie1010/Temporally-language-grounding)
+* [Localizing Moments in Video with Natural Language](https://arxiv.org/pdf/1708.01641.pdf) - Hendricks et al, `ICCV 2017`. [[code]](https://github.com/LisaAnne/LocalizingMoments) 
 
 ### 2018
 * [Localizing Moments in Video with Temporal Language](https://arxiv.org/pdf/1809.01337.pdf) - Hendricks et al, `EMNLP 2018`.
