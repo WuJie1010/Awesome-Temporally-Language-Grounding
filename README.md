@@ -34,7 +34,7 @@ A curated list of “Temporally Language Grounding” and related area
 * [To Find Where You Talk: Temporal Sentence Localization in Video with Attention Based Location Regression](https://arxiv.org/pdf/1804.07014.pdf) - Yuan et al, `AAAI 2019`. [[code]](https://github.com/yytzsy/ABLR_code)
 * [Read,Watch, and Move: Reinforcement Learning for Temporally Grounding Natural Language Descriptions in Videos](https://arxiv.org/pdf/1901.06829.pdf) - He et al, `AAAI 2019`. [[code]](https://github.com/WuJie1010/Temporally-language-grounding)
 * [Tripping through time Efficient Localization of Activities in Videos](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Tripping+through+time%3A+Efficient+Localization+of+Activities+in+Videos&btnG=
-) - He et al, `arXiv preprint 2019`.
+) - He et al, `CVPR Workshop 2019`.
 
 
 
