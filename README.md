@@ -35,6 +35,9 @@ A curated list of “Temporally Language Grounding” and related area
 * [Read,Watch, and Move: Reinforcement Learning for Temporally Grounding Natural Language Descriptions in Videos](https://arxiv.org/pdf/1901.06829.pdf) - He et al, `AAAI 2019`. [[code]](https://github.com/WuJie1010/Temporally-language-grounding)
 * [Tripping through time Efficient Localization of Activities in Videos](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Tripping+through+time%3A+Efficient+Localization+of+Activities+in+Videos&btnG=
 ) - He et al, `CVPR Workshop 2019`.
+* [MAN: Moment Alignment Network for Natural Language Moment Retrieval via Iterative Graph Adjustment](https://arxiv.org/pdf/1812.00087.pdf) - Zhang et al, `CVPR 2019`.
+* [Language-driven Temporal Activity Localization: A Semantic Matching Reinforcement Learning Model](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Language-Driven_Temporal_Activity_Localization_A_Semantic_Matching_Reinforcement_Learning_Model_CVPR_2019_paper.pdf) - Wang et al, `CVPR 2019`.
+
 
 
 
