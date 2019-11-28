@@ -37,8 +37,8 @@ A curated list of “Temporally Language Grounding” and related area
 ) - He et al, `CVPR Workshop 2019`.
 * [MAN: Moment Alignment Network for Natural Language Moment Retrieval via Iterative Graph Adjustment](https://arxiv.org/pdf/1812.00087.pdf) - Zhang et al, `CVPR 2019`.
 * [Language-driven Temporal Activity Localization: A Semantic Matching Reinforcement Learning Model](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Language-Driven_Temporal_Activity_Localization_A_Semantic_Matching_Reinforcement_Learning_Model_CVPR_2019_paper.pdf) - Wang et al, `CVPR 2019`.
-
-
+* [Cross-Modal Interaction Networks for Query-Based Moment Retrieval in Videos](https://arxiv.org/pdf/1906.02497v1.pdf) - Zhu et al, `SIGIR 2019`.
+* [Semantic Conditioned Dynamic Modulation for Temporal Sentence Grounding in Videos](https://arxiv.org/pdf/1910.14303.pdf) - Yuan et al, `NeurIPS 2019`.
 
 
 ## Dataset
