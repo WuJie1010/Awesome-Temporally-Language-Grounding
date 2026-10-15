@@ -4,7 +4,7 @@ A curated list of “Temporally Language Grounding” and related area
 
 ## Table of Contents
 - [Papers](#papers)
-  - [2017](#2017) - [2018](#2018) - [2019](#2019)
+  - [2017](#2017) - [2018](#2018) - [2019](#2019) - [2026](#2026)
 - [Dataset](#dataset)
 - [Popular Implementations](#popular-implementations)
   - [PyTorch](#pytorch)
@@ -40,6 +40,11 @@ A curated list of “Temporally Language Grounding” and related area
 * [Cross-Modal Interaction Networks for Query-Based Moment Retrieval in Videos](https://arxiv.org/pdf/1906.02497v1.pdf) - Zhu et al, `SIGIR 2019`.
 * [Semantic Conditioned Dynamic Modulation for Temporal Sentence Grounding in Videos](https://arxiv.org/pdf/1910.14303.pdf) - Yuan et al, `NeurIPS 2019`.
 
+
+### 2026
+* [VideoChat3: Fully Open Video MLLM for Efficient and Generalist Video Understanding](https://arxiv.org/abs/2607.14935) - Li et al, `arXiv 2026`. [[code]](https://github.com/MCG-NJU/VideoChat3)
+* [TimeLens2: Generalist Video Temporal Grounding with Multimodal LLMs](https://arxiv.org/abs/2607.17423) - Zhu et al, `arXiv 2026`. [[code]](https://github.com/MCG-NJU/TimeLens2)
+* [VideoJev: System One Model for Video Understanding and Interaction](https://arxiv.org/abs/2610.18615) - Zhu et al, `arXiv 2026`. [[code]](https://github.com/MCG-NJU/VideoJev)
 
 ## Dataset
 * [TACoS](https://www.mendeley.com/catalogue/script-data-attributebased-recognition-composite-activities/)
